@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="PokemonGo.RocketAPI.Console" GeneratedClassName="UserSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PtcUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">username</Value>
+    </Setting>
+    <Setting Name="PtcPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">pw </Value>
+    </Setting>
+    <Setting Name="GoogleRefreshToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DefaultLatitude" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">40.764861</Value>
+    </Setting>
+    <Setting Name="DefaultLongitude" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">-73.972824</Value>
+    </Setting>
+    <Setting Name="TransferDoublePokemons" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="EvolvePokemonsIfEnoughCandy" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="TelegramAPIToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YourAccessToken</Value>
+    </Setting>
+    <Setting Name="TelegramName" Type="System.String" Scope="User">
+      <Value Profile="(Default)">YourTelegramNickname</Value>
+    </Setting>
+    <Setting Name="WalkingSpeedInKilometerPerHour" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">50</Value>
+    </Setting>
+    <Setting Name="DefaultAltitude" Type="System.Double" Scope="User">
+      <Value Profile="(Default)">10</Value>
+    </Setting>
+    <Setting Name="DontTransferWithCPOver" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1700</Value>
+    </Setting>
+    <Setting Name="WalkBackToDefaultLocation" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="MaxWalkingRadiusInMeters" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="TelegramLiveStatsDelay" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="HoldMaxDoublePokemons" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="UseIncense" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
+    </Setting>
+    <Setting Name="UseProxyHost" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UseProxyPort" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="UseProxyUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UseProxyPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="UseProxyVerified" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="UseProxyAuthentication" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
