@@ -168,6 +168,7 @@
     <EmbeddedResource Include="Lang\ru.json" />
     <EmbeddedResource Include="Lang\spain.json" />
     <EmbeddedResource Include="Lang\tr.json" />
+    <EmbeddedResource Include="Lang\th.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -235,6 +236,9 @@
   <ItemGroup>
     <None Include="Resources\flagge-frankreich-flagge-rechteckig-40x60_2602.gif" />
   </ItemGroup>
+    <ItemGroup>
+    <None Include="Resources\th.png" />
+  </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
       <Visible>False</Visible>
@@ -259,6 +263,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="pokemon.ico" />
+    <Content Include="Resources\th.png" />
     <None Include="Resources\logo.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

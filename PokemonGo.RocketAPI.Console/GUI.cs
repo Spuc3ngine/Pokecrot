@@ -114,6 +114,7 @@ namespace PokemonGo.RocketAPI.Console
             b.Add("ru.json");
             b.Add("spain.json");
             b.Add("tr.json");
+            b.Add("th.json");
 
             foreach (var l in b)
             {
@@ -940,12 +941,12 @@ namespace PokemonGo.RocketAPI.Console
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.pokecrot.com/dl/#donate");
+            Process.Start("https://www.pokecrot.com/forum/");
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
         {
-            Process.Start("https://pokecrot.com/");
+            Process.Start("https://pokecrot.com/forum/");
         }
 
         private string langSelected = "en";
@@ -1018,7 +1019,8 @@ namespace PokemonGo.RocketAPI.Console
                 lang_ptBR_btn,
                 lang_tr_btn,
                 lang_ru_btn,
-                lang_france_btn
+                lang_france_btn,
+                lang_th_btn
 
                 // add the new languages' buttons here
             };

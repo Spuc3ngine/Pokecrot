@@ -94,6 +94,7 @@
             this.checkBox6 = new System.Windows.Forms.CheckBox();
             this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
             this.tabGeneral = new System.Windows.Forms.TabPage();
+            this.label40 = new System.Windows.Forms.Label();
             this.groupBox9 = new System.Windows.Forms.GroupBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -128,9 +129,9 @@
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.checkBox17 = new System.Windows.Forms.CheckBox();
             this.label39 = new System.Windows.Forms.Label();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label33 = new System.Windows.Forms.Label();
             this.textBox26 = new System.Windows.Forms.TextBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.checkBox16 = new System.Windows.Forms.CheckBox();
             this.chkUseBasicIncubators = new System.Windows.Forms.CheckBox();
             this.chkAutoIncubate = new System.Windows.Forms.CheckBox();
@@ -141,8 +142,8 @@
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lang_france_btn = new System.Windows.Forms.Button();
             this.lang_ru_btn = new System.Windows.Forms.Button();
             this.lang_tr_btn = new System.Windows.Forms.Button();
@@ -150,8 +151,8 @@
             this.lang_spain_btn = new System.Windows.Forms.Button();
             this.lang_de_btn = new System.Windows.Forms.Button();
             this.lang_en_btn = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.label40 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.lang_th_btn = new System.Windows.Forms.Button();
             this.tabPage1.SuspendLayout();
             this.tabItems.SuspendLayout();
             this.groupBox4.SuspendLayout();
@@ -166,9 +167,9 @@
             this.groupBox2.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox10.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -220,7 +221,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Margin = new System.Windows.Forms.Padding(2);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Size = new System.Drawing.Size(717, 396);
+            this.tabPage1.Size = new System.Drawing.Size(723, 478);
             this.tabPage1.TabIndex = 3;
             this.tabPage1.Text = "Proxies";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -854,6 +855,15 @@
             this.tabGeneral.Text = "General";
             this.tabGeneral.UseVisualStyleBackColor = true;
             // 
+            // label40
+            // 
+            this.label40.AutoSize = true;
+            this.label40.Location = new System.Drawing.Point(510, 462);
+            this.label40.Name = "label40";
+            this.label40.Size = new System.Drawing.Size(210, 13);
+            this.label40.TabIndex = 22;
+            this.label40.Text = "This Bot Using GUI By Ar1i And GreenGold";
+            // 
             // groupBox9
             // 
             this.groupBox9.Controls.Add(this.label32);
@@ -1204,6 +1214,23 @@
             this.label39.TabIndex = 39;
             this.label39.Text = "Device:";
             // 
+            // label33
+            // 
+            this.label33.AutoSize = true;
+            this.label33.Location = new System.Drawing.Point(213, 136);
+            this.label33.Name = "label33";
+            this.label33.Size = new System.Drawing.Size(15, 13);
+            this.label33.TabIndex = 37;
+            this.label33.Text = "%";
+            // 
+            // textBox26
+            // 
+            this.textBox26.Location = new System.Drawing.Point(176, 133);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(31, 20);
+            this.textBox26.TabIndex = 36;
+            this.textBox26.Text = "35";
+            // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
@@ -1240,23 +1267,6 @@
             this.comboBox2.TabIndex = 38;
             this.comboBox2.Text = "galaxy6";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(213, 136);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(15, 13);
-            this.label33.TabIndex = 37;
-            this.label33.Text = "%";
-            // 
-            // textBox26
-            // 
-            this.textBox26.Location = new System.Drawing.Point(176, 133);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(31, 20);
-            this.textBox26.TabIndex = 36;
-            this.textBox26.Text = "35";
             // 
             // checkBox16
             // 
@@ -1377,16 +1387,6 @@
             this.checkBox3.Text = "Evolve Pokemons if enough candy\r\n";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PokemonGo.RocketAPI.Console.Properties.Resources.donate;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 439);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 33);
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabGeneral);
@@ -1398,6 +1398,29 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(731, 504);
             this.tabControl1.TabIndex = 36;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::PokemonGo.RocketAPI.Console.Properties.Resources.logo;
+            this.pictureBox2.Location = new System.Drawing.Point(16, 3);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(718, 70);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 45;
+            this.pictureBox2.TabStop = false;
+            // 
+            // lang_th_btn
+            // 
+            this.lang_th_btn.BackgroundImage = global::PokemonGo.RocketAPI.Console.Properties.Resources.france;
+            this.lang_th_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.lang_th_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lang_th_btn.Location = new System.Drawing.Point(192, 79);
+            this.lang_th_btn.Name = "lang_th_btn";
+            this.lang_th_btn.Size = new System.Drawing.Size(24, 15);
+            this.lang_th_btn.TabIndex = 46;
+            this.lang_th_btn.Tag = "th";
+            this.lang_th_btn.UseVisualStyleBackColor = true;
+            this.lang_th_btn.Click += new System.EventHandler(this.languages_btn_Click);
             // 
             // lang_france_btn
             // 
@@ -1491,24 +1514,27 @@
             this.lang_en_btn.UseVisualStyleBackColor = true;
             this.lang_en_btn.Click += new System.EventHandler(this.languages_btn_Click);
             // 
-            // pictureBox2
+            // pictureBox1
             // 
-            this.pictureBox2.Image = global::PokemonGo.RocketAPI.Console.Properties.Resources.logo;
-            this.pictureBox2.Location = new System.Drawing.Point(16, 3);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(718, 70);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 45;
-            this.pictureBox2.TabStop = false;
+            this.pictureBox1.Image = global::PokemonGo.RocketAPI.Console.Properties.Resources.donate;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 439);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 33);
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // label40
+            // lang_th_btn
             // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(510, 462);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(210, 13);
-            this.label40.TabIndex = 22;
-            this.label40.Text = "This Bot Using GUI By Ar1i And GreenGold";
+            this.lang_th_btn.BackgroundImage = global::PokemonGo.RocketAPI.Console.Properties.Resources.th;
+            this.lang_th_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.lang_th_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.lang_th_btn.Location = new System.Drawing.Point(222, 79);
+            this.lang_th_btn.Name = "lang_th_btn";
+            this.lang_th_btn.Size = new System.Drawing.Size(24, 15);
+            this.lang_th_btn.TabIndex = 46;
+            this.lang_th_btn.Tag = "th";
+            this.lang_th_btn.UseVisualStyleBackColor = true;
             // 
             // GUI
             // 
@@ -1517,6 +1543,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(748, 615);
+            this.Controls.Add(this.lang_th_btn);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lang_france_btn);
             this.Controls.Add(this.lang_ru_btn);
@@ -1561,9 +1588,9 @@
             this.groupBox8.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1692,6 +1719,7 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.GroupBox groupBox9;
         private System.Windows.Forms.Label label40;
+        private System.Windows.Forms.Button lang_th_btn;
     }
 }
 
