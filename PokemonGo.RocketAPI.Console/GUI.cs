@@ -79,8 +79,8 @@ namespace PokemonGo.RocketAPI.Console
 
         private void GUI_Load(object sender, EventArgs e)
         {
-            MessageBox.Show("Pokemon GO permanent ban storm is coming");
-            MessageBox.Show("USE POKECROT AT YOUR OWN RISK");
+            MessageBox.Show("Use at your own risk, Niantic is banning these days!");
+            MessageBox.Show("Use the Bot only for 8 hours and turn off in afterwards for at least 2 hours + Spin per day not more than ~500-700 PokeStops and dont Catch more than ~500 Pokemon per day!!");
             _clientSettings = new Settings();
             // Create missing Files
             Directory.CreateDirectory(Program.path);

@@ -142,6 +142,7 @@
             this.checkBox8 = new System.Windows.Forms.CheckBox();
             this.checkBox7 = new System.Windows.Forms.CheckBox();
             this.checkBox3 = new System.Windows.Forms.CheckBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.lang_france_btn = new System.Windows.Forms.Button();
@@ -151,7 +152,6 @@
             this.lang_spain_btn = new System.Windows.Forms.Button();
             this.lang_de_btn = new System.Windows.Forms.Button();
             this.lang_en_btn = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lang_th_btn = new System.Windows.Forms.Button();
             this.tabPage1.SuspendLayout();
             this.tabItems.SuspendLayout();
@@ -167,9 +167,9 @@
             this.groupBox2.SuspendLayout();
             this.groupBox8.SuspendLayout();
             this.groupBox10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.tabControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
@@ -189,9 +189,9 @@
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label30.Location = new System.Drawing.Point(6, 17);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(254, 18);
+            this.label30.Size = new System.Drawing.Size(443, 18);
             this.label30.TabIndex = 45;
-            this.label30.Text = "Do Not Use More Than 2 Accounts !!!";
+            this.label30.Text = "If you run more than 1 instance with the same IP, you\'ll get banned.";
             // 
             // label32
             // 
@@ -199,9 +199,9 @@
             this.label32.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label32.Location = new System.Drawing.Point(6, 36);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(427, 18);
+            this.label32.Size = new System.Drawing.Size(406, 18);
             this.label32.TabIndex = 46;
-            this.label32.Text = "If you\'re get \" No Pokestop \" , Your IP Is BlackList , Get New IP .";
+            this.label32.Text = "If you\'re Softbanned, and unban is not working. Get a new IP.";
             // 
             // tabPage1
             // 
@@ -1387,6 +1387,16 @@
             this.checkBox3.Text = "Evolve Pokemons if enough candy\r\n";
             this.checkBox3.UseVisualStyleBackColor = true;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::PokemonGo.RocketAPI.Console.Properties.Resources.donate;
+            this.pictureBox1.Location = new System.Drawing.Point(6, 439);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(64, 33);
+            this.pictureBox1.TabIndex = 21;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.tabGeneral);
@@ -1408,19 +1418,6 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 45;
             this.pictureBox2.TabStop = false;
-            // 
-            // lang_th_btn
-            // 
-            this.lang_th_btn.BackgroundImage = global::PokemonGo.RocketAPI.Console.Properties.Resources.france;
-            this.lang_th_btn.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.lang_th_btn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.lang_th_btn.Location = new System.Drawing.Point(192, 79);
-            this.lang_th_btn.Name = "lang_th_btn";
-            this.lang_th_btn.Size = new System.Drawing.Size(24, 15);
-            this.lang_th_btn.TabIndex = 46;
-            this.lang_th_btn.Tag = "th";
-            this.lang_th_btn.UseVisualStyleBackColor = true;
-            this.lang_th_btn.Click += new System.EventHandler(this.languages_btn_Click);
             // 
             // lang_france_btn
             // 
@@ -1514,16 +1511,6 @@
             this.lang_en_btn.UseVisualStyleBackColor = true;
             this.lang_en_btn.Click += new System.EventHandler(this.languages_btn_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::PokemonGo.RocketAPI.Console.Properties.Resources.donate;
-            this.pictureBox1.Location = new System.Drawing.Point(6, 439);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(64, 33);
-            this.pictureBox1.TabIndex = 21;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // lang_th_btn
             // 
             this.lang_th_btn.BackgroundImage = global::PokemonGo.RocketAPI.Console.Properties.Resources.th;
@@ -1535,6 +1522,7 @@
             this.lang_th_btn.TabIndex = 46;
             this.lang_th_btn.Tag = "th";
             this.lang_th_btn.UseVisualStyleBackColor = true;
+            this.lang_th_btn.Click += new System.EventHandler(this.languages_btn_Click);
             // 
             // GUI
             // 
@@ -1588,9 +1576,9 @@
             this.groupBox8.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
